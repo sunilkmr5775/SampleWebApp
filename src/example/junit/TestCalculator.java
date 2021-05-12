@@ -1,20 +1,18 @@
-package junit;
-
-
-
+package example.junit;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import example.math.Calculator;
 
 
 public class TestCalculator {
  
-	private math.Calculator calc;
+	private Calculator calc;
   
 	 @Before
 	 public void setUp() throws Exception {
-		 calc = new math.Calculator();
+		 calc = new Calculator();
 	 }
  
 	 @After

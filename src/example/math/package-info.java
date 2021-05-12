@@ -5,4 +5,4 @@
  * @author ajay.srinivasa
  *
  */
-package math;
+package example.math;

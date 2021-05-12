@@ -5,4 +5,4 @@
  * @author ajay.srinivasa
  *
  */
-package junit;
+package example.junit;
